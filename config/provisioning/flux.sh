@@ -40,7 +40,7 @@ VAE_MODELS=(
 )
 
 LORA_MODELS=(
-    "https://civitai.com/api/download/models/87153?type=Model&format=SafeTensor"
+    "https://civitai.com/models/82098/add-more-details-detail-enhancer-tweaker-lora"
 )
 
 ESRGAN_MODELS=(
@@ -54,7 +54,7 @@ CONTROLNET_MODELS=(
 
 BBOX_MODELS=(
     "https://huggingface.co/Bingsu/adetailer/resolve/main/face_yolov8n_v2.pt"
-    "https://civitai.com/api/download/models/582143?type=Archive&format=Other"
+    "https://civitai.com/models/178518/eyeful-or-robust-eye-detection-for-adetailer-comfyui"
 )
 
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
@@ -103,7 +103,7 @@ function provisioning_start() {
         "${WORKSPACE}/storage/stable_diffusion/models/esrgan" \
         "${ESRGAN_MODELS[@]}"
     provisioning_get_models \
-        "${WORKSPACE}/storage/stable_diffusion/models/bbox" \
+        "${WORKSPACE}/storage/stable_diffusion/models/ultralytics/bbox" \
         "${BBOX_MODELS[@]}"
     provisioning_print_end
 }
