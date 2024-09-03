@@ -5,3 +5,4 @@ config/authorized_keys
 config/rclone
 tpdocs/
 .env
+config/provisioning/Workflows/.DS_Store
