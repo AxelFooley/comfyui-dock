@@ -6,7 +6,7 @@
 
 # Packages are installed after nodes so we can fix them...
 
-DEFAULT_WORKFLOW="https://raw.githubusercontent.com/ai-dock/comfyui/main/config/workflows/flux-comfyui-example.json"
+DEFAULT_WORKFLOW="https://raw.githubusercontent.com/AxelFooley/comfyui-dock/main/config/provisioning/Workflows/Tenofas_3.3.json"
 
 APT_PACKAGES=(
     #"package-1"
