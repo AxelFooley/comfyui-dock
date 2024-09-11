@@ -6,11 +6,10 @@
 
 # Packages are installed after nodes so we can fix them...
 
-DEFAULT_WORKFLOW="https://raw.githubusercontent.com/AxelFooley/comfyui-dock/main/config/provisioning/Workflows/Tenofas_3.3.json"
+DEFAULT_WORKFLOW="https://raw.githubusercontent.com/AxelFooley/comfyui-dock/main/config/provisioning/Workflows/Tenofas_4.0.json"
 
 APT_PACKAGES=(
-    #"package-1"
-    #"package-2"
+    wget
 )
 
 PIP_PACKAGES=(
@@ -23,17 +22,16 @@ NODES=(
 )
 
 CHECKPOINT_MODELS=(
-    "https://huggingface.co/Justin-Choo/epiCRealism-Natural_Sin_RC1_VAE/resolve/main/epicrealism_naturalSinRC1VAE.safetensors"
 )
 
 CLIP_MODELS=(
     "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors"
-    "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp8_e4m3fn.safetensors"
     "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors"
 )
 
 UNET_MODELS=(
     "https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/flux1-dev.safetensors"
+    "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-F16.gguf"
 )
 
 VAE_MODELS=(
@@ -41,13 +39,18 @@ VAE_MODELS=(
 )
 
 LORA_MODELS=(
-    "https://civitai.com/models/82098/add-more-details-detail-enhancer-tweaker-lora"
+    "https://huggingface.co/dvyio/flux-lora-seventies-photograph/resolve/main/1d21ceb96d254a2699df6a681c02780c_pytorch_lora_weights.safetensors"
+    "https://huggingface.co/VideoAditor/Flux-Lora-Realism/resolve/main/flux_realism_lora.safetensors"
+    "https://huggingface.co/pablobonilla/flux-realistic-lora/resolve/main/lora.safetensors"
+    "https://huggingface.co/Shakker-Labs/FLUX.1-dev-LoRA-add-details/resolve/main/FLUX-dev-lora-add_details.safetensors"
+    "https://huggingface.co/gokaygokay/Flux-Detailer-LoRA/resolve/main/flux_detailer.safetensors"
+
 )
 
 ESRGAN_MODELS=(
-    "https://huggingface.co/ai-forever/Real-ESRGAN/resolve/main/RealESRGAN_x4.pth"
-    "https://huggingface.co/FacehugmanIII/4x_foolhardy_Remacri/resolve/main/4x_foolhardy_Remacri.pth"
     "https://huggingface.co/Akumetsu971/SD_Anime_Futuristic_Armor/resolve/main/4x_NMKD-Siax_200k.pth"
+    "https://huggingface.co/lokCX/4x-Ultrasharp/resolve/main/4x-UltraSharp.pth"
+    "https://huggingface.co/gemasai/4x_NMKD-Superscale-SP_178000_G/resolve/main/4x_NMKD-Superscale-SP_178000_G.pth"
 )
 
 CONTROLNET_MODELS=(
@@ -55,6 +58,7 @@ CONTROLNET_MODELS=(
 
 BBOX_MODELS=(
     "https://huggingface.co/Bingsu/adetailer/resolve/main/face_yolov8n_v2.pt"
+    "https://huggingface.co/datasets/Gourieff/ReActor/resolve/main/models/sams/sam_vit_b_01ec64.pth"
     "https://civitai.com/models/178518/eyeful-or-robust-eye-detection-for-adetailer-comfyui"
 )
 
