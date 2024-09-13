@@ -137,10 +137,10 @@ function provisioning_start() {
         "${ESRGAN_MODELS[@]}"
     provisioning_get_models \
         "${WORKSPACE}/storage/stable_diffusion/models/ultralytics/bbox" \
-        "${BBOX_MODELS[@]}" \
+        "${BBOX_MODELS[@]}" 
     provisioning_get_models \
         "${WORKSPACE}/storage/stable_diffusion/custom_nodes/ComfyUI_essentials/luts" \
-        "${LUTS[@]}"
+        "${LUTS[@]}" 
     provisioning_print_end
 }
 
