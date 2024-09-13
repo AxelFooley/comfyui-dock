@@ -18,7 +18,27 @@ PIP_PACKAGES=(
 )
 
 NODES=(
-    
+    "https://github.com/ltdrdata/ComfyUI-Manager"
+    "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
+    "https://github.com/ltdrdata/ComfyUI-Inspire-Pack"
+    "https://github.com/WASasquatch/was-node-suite-comfyui"
+    "https://github.com/city96/ComfyUI-GGUF"
+    "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
+    "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
+    "https://github.com/melMass/comfy_mtb"
+    "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
+    "https://github.com/Gourieff/comfyui-reactor-node"
+    "https://github.com/rgthree/rgthree-comfy"
+    "https://github.com/cubiq/ComfyUI_essentials"
+    "https://github.com/chrisgoringe/cg-use-everywhere"
+    "https://github.com/kijai/ComfyUI-Florence2"
+    "https://github.com/florestefano1975/comfyui-portrait-master"
+    "https://github.com/crystian/ComfyUI-Crystools"
+    "https://github.com/nkchocoai/ComfyUI-SaveImageWithMetaData"
+    "https://github.com/ronniebasak/ComfyUI-Tara-LLM-Integration"
+    "https://github.com/KoreTeknology/ComfyUI-Universal-Styler"
+    "https://github.com/Smirnov75/ComfyUI-mxToolkit"
+    "https://github.com/un-seen/comfyui-tensorops"
 )
 
 CHECKPOINT_MODELS=(
@@ -44,6 +64,7 @@ LORA_MODELS=(
     "https://huggingface.co/pablobonilla/flux-realistic-lora/resolve/main/lora.safetensors"
     "https://huggingface.co/Shakker-Labs/FLUX.1-dev-LoRA-add-details/resolve/main/FLUX-dev-lora-add_details.safetensors"
     "https://huggingface.co/gokaygokay/Flux-Detailer-LoRA/resolve/main/flux_detailer.safetensors"
+    "https://huggingface.co/prithivMLmods/Canopus-Car-Flux-Dev-LoRA/resolve/main/Canopus-Car-Flux-Dev-LoRA.safetensors"
 
 )
 
