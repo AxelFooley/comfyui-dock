@@ -6,3 +6,5 @@ config/rclone
 tpdocs/
 .env
 config/provisioning/Workflows/.DS_Store
+.DS_Store
+.DS_Store
