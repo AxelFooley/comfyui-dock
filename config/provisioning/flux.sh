@@ -83,6 +83,13 @@ BBOX_MODELS=(
     "https://civitai.com/models/178518/eyeful-or-robust-eye-detection-for-adetailer-comfyui"
 )
 
+LUTS=(
+    "https://raw.githubusercontent.com/AxelFooley/comfyui-dock/main/luts/Presetpro%20%20-%20Fuji%20Provia.cube"
+    "https://raw.githubusercontent.com/AxelFooley/comfyui-dock/main/luts/Presetpro%20-%20Agfa%20Ultra%20100.cube"
+    "https://raw.githubusercontent.com/AxelFooley/comfyui-dock/main/luts/Presetpro%20-%20Fuji%20Astia.cube"
+    "https://raw.githubusercontent.com/AxelFooley/comfyui-dock/main/luts/Presetpro%20-%20Portra%20800.cube"
+    "https://raw.githubusercontent.com/AxelFooley/comfyui-dock/main/luts/Presetpro%20-%20Velvia%20100.cube"
+)
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
 
 function provisioning_start() {
@@ -130,7 +137,10 @@ function provisioning_start() {
         "${ESRGAN_MODELS[@]}"
     provisioning_get_models \
         "${WORKSPACE}/storage/stable_diffusion/models/ultralytics/bbox" \
-        "${BBOX_MODELS[@]}"
+        "${BBOX_MODELS[@]}" \
+    provisioning_get_models \
+        "${WORKSPACE}/storage/stable_diffusion/custom_nodes/ComfyUI_essentials/luts" \
+        "${LUTS[@]}"
     provisioning_print_end
 }
 
