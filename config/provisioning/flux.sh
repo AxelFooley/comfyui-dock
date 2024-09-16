@@ -65,6 +65,7 @@ LORA_MODELS=(
     "https://huggingface.co/Shakker-Labs/FLUX.1-dev-LoRA-add-details/resolve/main/FLUX-dev-lora-add_details.safetensors"
     "https://huggingface.co/gokaygokay/Flux-Detailer-LoRA/resolve/main/flux_detailer.safetensors"
     "https://huggingface.co/prithivMLmods/Canopus-Car-Flux-Dev-LoRA/resolve/main/Canopus-Car-Flux-Dev-LoRA.safetensors"
+    "https://huggingface.co/zer0int/CLIP-GmP-ViT-L-14/resolve/main/ViT-L-14-TEXT-detail-improved-hiT-GmP-HF.safetensors"
 
 )
 
@@ -84,11 +85,11 @@ BBOX_MODELS=(
 )
 
 LUTS=(
-    "https://raw.githubusercontent.com/AxelFooley/comfyui-dock/main/luts/Presetpro%20%20-%20Fuji%20Provia.cube"
-    "https://raw.githubusercontent.com/AxelFooley/comfyui-dock/main/luts/Presetpro%20-%20Agfa%20Ultra%20100.cube"
-    "https://raw.githubusercontent.com/AxelFooley/comfyui-dock/main/luts/Presetpro%20-%20Fuji%20Astia.cube"
-    "https://raw.githubusercontent.com/AxelFooley/comfyui-dock/main/luts/Presetpro%20-%20Portra%20800.cube"
-    "https://raw.githubusercontent.com/AxelFooley/comfyui-dock/main/luts/Presetpro%20-%20Velvia%20100.cube"
+    "https://github.com/AxelFooley/comfyui-dock/raw/main/luts/Presetpro%20%20-%20Fuji%20Provia.cube"
+    "https://github.com/AxelFooley/comfyui-dock/raw/main/luts/Presetpro%20-%20Agfa%20Ultra%20100.cube"
+    "https://github.com/AxelFooley/comfyui-dock/raw/main/luts/Presetpro%20-%20Fuji%20Astia.cube"
+    "https://github.com/AxelFooley/comfyui-dock/raw/main/luts/Presetpro%20-%20Portra%20800.cube"
+    "https://github.com/AxelFooley/comfyui-dock/raw/main/luts/Presetpro%20-%20Velvia%20100.cube"
 )
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
 
