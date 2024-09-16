@@ -80,7 +80,7 @@ CONTROLNET_MODELS=(
 BBOX_MODELS=(
     "https://huggingface.co/Bingsu/adetailer/resolve/main/face_yolov8n_v2.pt"
     "https://huggingface.co/datasets/Gourieff/ReActor/resolve/main/models/sams/sam_vit_b_01ec64.pth"
-    "https://civitai.com/models/178518/eyeful-or-robust-eye-detection-for-adetailer-comfyui"
+    "https://github.com/AxelFooley/comfyui-dock/raw/main/bbox/Eyeful_v2-Paired.pt"
 )
 
 LUTS=(
