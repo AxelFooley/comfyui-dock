@@ -6,7 +6,7 @@
 
 # Packages are installed after nodes so we can fix them...
 
-DEFAULT_WORKFLOW="https://raw.githubusercontent.com/AxelFooley/comfyui-dock/main/config/provisioning/Workflows/Tenofas_4.0.json"
+DEFAULT_WORKFLOW="https://raw.githubusercontent.com/AxelFooley/comfyui-dock/main/config/provisioning/Workflows/flux1-dev-upscaler.json"
 
 APT_PACKAGES=(
     wget
@@ -19,26 +19,7 @@ PIP_PACKAGES=(
 
 NODES=(
     "https://github.com/ltdrdata/ComfyUI-Manager"
-    "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
-    "https://github.com/ltdrdata/ComfyUI-Inspire-Pack"
-    "https://github.com/WASasquatch/was-node-suite-comfyui"
-    "https://github.com/city96/ComfyUI-GGUF"
-    "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
-    "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
-    "https://github.com/melMass/comfy_mtb"
-    "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
-    "https://github.com/Gourieff/comfyui-reactor-node"
-    "https://github.com/rgthree/rgthree-comfy"
-    "https://github.com/cubiq/ComfyUI_essentials"
-    "https://github.com/chrisgoringe/cg-use-everywhere"
-    "https://github.com/kijai/ComfyUI-Florence2"
-    "https://github.com/florestefano1975/comfyui-portrait-master"
     "https://github.com/crystian/ComfyUI-Crystools"
-    "https://github.com/nkchocoai/ComfyUI-SaveImageWithMetaData"
-    "https://github.com/ronniebasak/ComfyUI-Tara-LLM-Integration"
-    "https://github.com/KoreTeknology/ComfyUI-Universal-Styler"
-    "https://github.com/Smirnov75/ComfyUI-mxToolkit"
-    "https://github.com/un-seen/comfyui-tensorops"
 )
 
 CHECKPOINT_MODELS=(
@@ -59,37 +40,22 @@ VAE_MODELS=(
 )
 
 LORA_MODELS=(
-    "https://huggingface.co/dvyio/flux-lora-seventies-photograph/resolve/main/1d21ceb96d254a2699df6a681c02780c_pytorch_lora_weights.safetensors"
-    "https://huggingface.co/VideoAditor/Flux-Lora-Realism/resolve/main/flux_realism_lora.safetensors"
-    "https://huggingface.co/pablobonilla/flux-realistic-lora/resolve/main/lora.safetensors"
-    "https://huggingface.co/Shakker-Labs/FLUX.1-dev-LoRA-add-details/resolve/main/FLUX-dev-lora-add_details.safetensors"
-    "https://huggingface.co/gokaygokay/Flux-Detailer-LoRA/resolve/main/flux_detailer.safetensors"
-    "https://huggingface.co/prithivMLmods/Canopus-Car-Flux-Dev-LoRA/resolve/main/Canopus-Car-Flux-Dev-LoRA.safetensors"
-    "https://huggingface.co/zer0int/CLIP-GmP-ViT-L-14/resolve/main/ViT-L-14-TEXT-detail-improved-hiT-GmP-HF.safetensors"
 
 )
 
 ESRGAN_MODELS=(
-    "https://huggingface.co/Akumetsu971/SD_Anime_Futuristic_Armor/resolve/main/4x_NMKD-Siax_200k.pth"
-    "https://huggingface.co/lokCX/4x-Ultrasharp/resolve/main/4x-UltraSharp.pth"
-    "https://huggingface.co/gemasai/4x_NMKD-Superscale-SP_178000_G/resolve/main/4x_NMKD-Superscale-SP_178000_G.pth"
+    "https://huggingface.co/uwg/upscaler/resolve/main/ESRGAN/8x_NMKD-Superscale_150000_G.pth"
 )
 
 CONTROLNET_MODELS=(
 )
 
 BBOX_MODELS=(
-    "https://huggingface.co/Bingsu/adetailer/resolve/main/face_yolov8n_v2.pt"
-    "https://huggingface.co/datasets/Gourieff/ReActor/resolve/main/models/sams/sam_vit_b_01ec64.pth"
-    "https://github.com/AxelFooley/comfyui-dock/raw/main/bbox/Eyeful_v2-Paired.pt"
+    
 )
 
 LUTS=(
-    "https://github.com/AxelFooley/comfyui-dock/raw/main/luts/Presetpro%20%20-%20Fuji%20Provia.cube"
-    "https://github.com/AxelFooley/comfyui-dock/raw/main/luts/Presetpro%20-%20Agfa%20Ultra%20100.cube"
-    "https://github.com/AxelFooley/comfyui-dock/raw/main/luts/Presetpro%20-%20Fuji%20Astia.cube"
-    "https://github.com/AxelFooley/comfyui-dock/raw/main/luts/Presetpro%20-%20Portra%20800.cube"
-    "https://github.com/AxelFooley/comfyui-dock/raw/main/luts/Presetpro%20-%20Velvia%20100.cube"
+    
 )
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
 
