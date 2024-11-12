@@ -32,7 +32,6 @@ CLIP_MODELS=(
 
 UNET_MODELS=(
     "https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/flux1-dev.safetensors"
-    "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-F16.gguf"
 )
 
 VAE_MODELS=(
@@ -55,7 +54,7 @@ BBOX_MODELS=(
 )
 
 LUTS=(
-    
+
 )
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
 
